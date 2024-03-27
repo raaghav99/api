@@ -2,17 +2,18 @@ from flask import Flask, request, jsonify
 from flask_cors import CORS  # Import CORS
 import random
 import json
+import subprocess
 from textblob import TextBlob
 import nltk
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
+import streamlit as st
+
 nltk.download('stopwords')
 nltk.download('wordnet')
 nltk.download('punkt')
-# Import Streamlit
-import streamlit as st
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
@@ -63,9 +64,19 @@ def get_response(user_input):
         return random.choice(response_options)
     return "I do not understand..."
 
-# Define Streamlit app
+# Run Gunicorn server using subprocess
+def run_gunicorn():
+    command = [
+        "gunicorn",            # Gunicorn command
+        "-b", "0.0.0.0:8000",  # Bind address and port
+        "app:app"             # Name of your Flask app object
+    ]
+    subprocess.run(command)
+
 def main():
     st.title('Chatbot API')
+
+    # Run Gunicorn server
 
     @app.route('/chat', methods=['GET', 'POST'])
     def chat():
@@ -81,9 +92,7 @@ def main():
 
         response = get_response(user_input)
         return jsonify({'response': response})
-
-    # Run the Flask app using Streamlit
-    app.run(debug=True)
+        run_gunicorn()
 
 if __name__ == '__main__':
     main()
