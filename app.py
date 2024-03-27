@@ -1,6 +1,5 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS  # Import CORS
-
 import random
 import json
 from textblob import TextBlob
@@ -9,6 +8,11 @@ from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
+nltk.download('stopwords')
+nltk.download('wordnet')
+nltk.download('punkt')
+# Import Streamlit
+import streamlit as st
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
@@ -59,20 +63,27 @@ def get_response(user_input):
         return random.choice(response_options)
     return "I do not understand..."
 
-@app.route('/chat', methods=['GET', 'POST'])
-def chat():
-    if request.method == 'POST':
-        user_input = request.json.get('message')
-    elif request.method == 'GET':
-        user_input = request.args.get('message')
-    else:
-        return "Method not allowed", 405
+# Define Streamlit app
+def main():
+    st.title('Chatbot API')
 
-    if not user_input:
-        return "No message provided", 400
+    @app.route('/chat', methods=['GET', 'POST'])
+    def chat():
+        if request.method == 'POST':
+            user_input = request.json.get('message')
+        elif request.method == 'GET':
+            user_input = request.args.get('message')
+        else:
+            return "Method not allowed", 405
 
-    response = get_response(user_input)
-    return jsonify({'response': response})
+        if not user_input:
+            return "No message provided", 400
+
+        response = get_response(user_input)
+        return jsonify({'response': response})
+
+    # Run the Flask app using Streamlit
+    app.run(debug=False)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    main()
