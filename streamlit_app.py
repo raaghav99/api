@@ -69,16 +69,14 @@ def run_gunicorn():
     command = [
         "gunicorn",            # Gunicorn command
         "-b", "0.0.0.0:8000",  # Bind address and port
-        "app:app"             # Name of your Flask app object
+        "streamlit_app:app"             # Name of your Flask app object
     ]
     subprocess.run(command)
 
-@st.experimental_memo
 def main():
     st.title('Chatbot API')
 
     # Run Gunicorn server
-    run_gunicorn()
 
     @app.route('/chat', methods=['GET', 'POST'])
     def chat():
@@ -94,6 +92,7 @@ def main():
 
         response = get_response(user_input)
         return jsonify({'response': response})
+        run_gunicorn()
 
 if __name__ == '__main__':
     main()
