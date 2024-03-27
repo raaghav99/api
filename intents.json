@@ -1,0 +1,246 @@
+
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [ "Hi",
+      "Hey",
+      "How are you",
+      "Is anyone there?",
+      "Hello",
+      "Good day",
+      "Hi there!",
+      "Hi, how are you doing?",
+      "Greetings!",
+      "How's it going?",
+      "What's up?",
+      "Bonjour!",
+      "Yo!",
+      "Hiya!",
+      "Howdy!",
+      "Aloha!",
+      "Wassup?",
+      "Hola!",
+      "Hey you!",
+      "G'day mate!",
+      "Good morning!",
+      "Good afternoon!"],
+      "responses": [
+        "Hey :-) Here are some options for you:\n1. About Gen Garage z\n2. Missions of Gen Garage\n3. Leads of Gen Garage\n4. Current Projects\n5. Achievements",
+        "Hello, thanks for visiting. Here are some options for you:\n1. About Gen Garage\n2. Missions of Gen Garage\n3. Leads of Gen Garage\n4. Current Projects\n5. Achievements",
+        "Hi there, what can I do for you? Here are some options for you:\n1. About Gen Garage\n2. Missions of Gen Garage\n3. Leads of Gen Garage\n4. Current Projects\n5. Achievements",
+        "Hi there, how can I help? Here are some options for you:\n1. About Gen Garage\n2. Missions of Gen Garage\n3. Leads of Gen Garage\n4. Current Projects\n5. Achievements",
+        "Welcome! How can I assist you today? Here are some options for you:\n1. About Gen Garage\n2. Missions of Gen Garage\n3. Leads of Gen Garage\n4. Current Projects\n5. Achievements",
+        "Greetings! How may I assist you today? Please choose one of the following options:\n1. About Gen Garage\n2. Missions of Gen Garage\n3. Leads of Gen Garage\n4. Current Projects\n5. Achievements"
+      ]
+    },
+    {
+      "tag": "about_gen_garage",
+      "patterns": ["What is Gen Garage", "About Gen Garage", "Gen Garage","When was Gen Garage founded?","Where was Gen Garage founded?","Who founded Gen Garage?"],
+      "responses": ["Gen Garage was founded in Mumbai in 2019. It is an innovative platform that brings together fresh graduates, interns, mentors, and industry leaders."]
+    },
+    {
+      "tag": "purpose_of_gen_garage",
+      "patterns": ["Purpose","What is the purpose of Gen Garage", "What does Gen Garage do","Could you outline the mission or purpose that Gen Garage is dedicated to?",
+      "I'm curious about Gen Garage's objectives. What does the organization aim to achieve?",
+      "Can you provide information on the core functions and goals of Gen Garage?",
+      "I'd like to know more about Gen Garage. How would you describe its primary focus and contributions?",
+      "Could you paint a picture of the activities and purpose that define Gen Garage's presence in its field?",
+      "I'm interested in understanding the core purpose that Gen Garage serves. How would you describe it?"],
+      "responses": ["Gen Garage concentrates on transforming talents into an industrial setting systematically."]
+    },
+    {
+      "tag": "who_can_join_gen_garage",
+      "patterns": ["Join","Who can join Gen Garage","What is the criteria for becoming a member of Gen Garage?",
+      "Who is eligible to join the community at Gen Garage?",
+      "Can you provide insights into the qualifications required for joining Gen Garage?",
+      "What kinds of individuals are welcome to be part of Gen Garage?",
+      "Are there specific conditions one must meet to become a member of Gen Garage?",
+      "Who has the opportunity to join Gen Garage's community?"],
+      "responses": ["All the employees of Capgemini are by default part of Gen Garage."]
+    },
+    {
+      "tag": "how_to_be_mentor_for_gen_garage",
+      "patterns": ["Mentor","How can I be a mentor for Gen Garage", "What steps do I need to take to apply as a mentor for Gen Garage?",
+      "How do I go about expressing my interest in mentoring for Gen Garage?",
+      "How can I contribute my expertise as a mentor to Gen Garage?",
+      "What is the process for becoming a mentor at Gen Garage?",
+      "How can I get involved as a mentor with Gen Garage's programs?",
+      "How does Gen Garage select mentors for its initiatives?",
+      "How can I offer my mentorship services to Gen Garage participants?",
+      "Can individuals from various industries apply to mentor at Gen Garage?"],
+      "responses": ["Connect with business line leads or core team of Gen Garage mentioned on 'meet the team' page of this website."]
+    },
+    {
+      "tag": "question",
+      "patterns": ["Gen Z","What is Gen Z Campus?","About Gen Z Campus","Gen Z Campus"],
+      "responses": ["Gen Z Campus is a learning Initiative for Grade A in collaboration with I&D Gen Z Arena. The transformation program for grade A includes:\n1. Immersive learning opportunities: The campus offers a series of essential self-paced learnings covering technical skills to developing leadership acumen.\n2. Mentorship and guidance: Subject matter experts from various business lines will be available to mentor the young associates through-out their journey, offering valuable insights and constructive feedback.\n3. Innovators space: The campus, in collaboration with the Gen Garage, also offers a dedicated space for brainstorming and creating solutions to real-world challenges faced by our clients.\n\nTo visit Gen Z Campus site and Learn, Click on the given link below:\n<a href=\"https://degreed.com/plan/3104188?newWindow=true&editMode=false\">Gen Z Campus</a>"]
+    },
+    {
+      "tag": "gen_garage_locations",
+      "patterns": ["Locations","What all locations is Gen Garage community present in","What are the geographical areas covered by Gen Garage?",
+      "Which locations host Gen Garage's programs and initiatives?",
+      "Where are the physical sites of Gen Garage situated?",
+      "What cities or countries house Gen Garage's operations?",
+      "Across which areas does Gen Garage have its presence?",
+      "Where can individuals find Gen Garage's branches or hubs?",
+      "What are the specific locales where Gen Garage operates?",
+      "In which regions does Gen Garage offer its programs and support?",
+      "Which cities or countries are part of Gen Garage's network?",
+      "Where can I locate Gen Garage's centers or facilities?",
+      "Which locations are served by Gen Garage's initiatives?",
+      "What are the various sites associated with Gen Garage's operations?",
+      "In which specific cities or towns does Gen Garage have a presence?"],
+      "responses": ["Gen Garage has a global presence, operating Pan India with major presence in cities such as Bangalore, Mumbai, Pune, Chennai, Hyderabad, Kolkata, and Delhi NCR."]
+    },
+    {
+      "tag": "projects_covered_by_gen_garage",
+      "patterns": ["Projects","What kind of projects Gen Garage covers", "Projects included in Gen Garage"],
+      "responses": ["1.Business challenges\n2.Proof of concepts (POCs)\n3.Innovative ideas focused on value addition\n4.Use cases revolving around ESG (Environmental, Social, and Governance) applications."]
+    },
+    {
+      "tag": "domains_of_gen_garage",
+      "patterns": ["Domain","In which domains does Gen Garage develop projects", "Domains of Gen Garage"],
+      "responses": ["1.Data Engineering\n2.Data Science\n3.Machine learning\n4.Data Visualization\n5.Cloud Technologies"]
+    },
+    {
+      "tag": "gen_garage_start_date",
+      "patterns": ["When Gen Garage started"],
+      "responses": ["Previously known as Millennial Garage, it was founded in Mumbai in 2019. The new version called 'Gen Garage' with a federated model was launched in 2023."]
+    },
+    {
+      "tag": "daily_dose_engagements",
+      "patterns": ["Schedule","What Daily Dose Engagements does Gen Garage provide", "Weekly schedule of it", "Weekly schedule of it",
+      "What types of Daily Dose Engagements does Gen Garage offer?",
+      "Could you provide details about the Daily Dose Engagements available at Gen Garage?",
+      "How does Gen Garage engage users on a daily basis through their Daily Dose Engagements?",
+      "Can you share more about the Daily Dose Engagements provided by Gen Garage?",
+      "What are the different Daily Dose Engagements that Gen Garage delivers each day?",
+      "In what ways does Gen Garage keep users engaged through their Daily Dose activities?",
+      "Could you go into more detail about the content and formats of the Daily Dose Engagements provided by Gen Garage?",
+      "How diverse are the Daily Dose Engagements at Gen Garage, and can you provide examples of each?"],
+      "responses": ["MONDAY-Knowledge Sharing Session\nTUESDAY-Tuesday Tips\nWEDNESDAY-Innovation of the Week\nTHURSDAY-Guru Gyan\nFRIDAY-Masti Friday"]
+    },
+    {
+      "tag": "follow_gen_garage_linkedin",
+      "patterns": ["Do we have to follow Gen Garage LinkedIn handle","Where can I find Gen Garage's profile on social media?",
+      "Could you provide the social media handle used by Gen Garage?",
+      "What's the username for Gen Garage's social media account?",
+      "How do I locate Gen Garage's social media handle?",
+      "What's the handle that Gen Garage uses for social media?",
+      "Where can I follow Gen Garage online?",
+      "Can I get the handle for Gen Garage's social media account?",
+      "What's the social media ID for Gen Garage?",
+      "Where can I connect with Gen Garage online?",
+      "How can I reach Gen Garage on social media?",
+      "What's the handle Gen Garage uses for their social media presence?",
+      "Could you provide the social media username Gen Garage goes by?",
+      "How do I find Gen Garage's handle on social media platforms?",
+      "Where can I locate Gen Garage's social media handle?",
+      "What's Gen Garage's username for social media accounts?",
+      "Can you share Gen Garage's social media handle with me?",
+      "What's the handle Gen Garage uses on social media?",
+      "How do I follow Gen Garage on social networks?",
+      "What's the social media alias for Gen Garage?"],
+      "responses": ["Yes, every active member of Gen Garage should follow the official channel of Gen Garage team on LinkedIn.\nPlease do follow:<a href=\" https://www.linkedin.com/feed/hashtag/genzarena/ on LinkedIn.\">Gen Garage LinkedIn</a>"]
+    },
+    {
+      "tag": "gen_garage_clubs",
+      "patterns": ["What are the Clubs of Gen Garage", "Is it mandatory to be a part of the clubs","What are the club offerings at Gen Garage?",
+      "Could you tell me about the clubs affiliated with Gen Garage?",
+      "What clubs are available through Gen Garage?",
+      "Which clubs can I join at Gen Garage?",
+      "What kinds of clubs are part of Gen Garage?",
+      "Can you provide information about Gen Garage's club roster?",
+      "What clubs does Gen Garage host?",
+      "Are there any clubs associated with Gen Garage?",
+      "What are the options for clubs at Gen Garage?",
+      "Could you elaborate on the clubs available through Gen Garage?",
+      "Are there specific clubs within the Gen Garage community?",
+      "What are the club memberships offered by Gen Garage?",
+      "Can you detail the club selection at Gen Garage?",
+      "Are there any clubs affiliated with Gen Garage that I can join?",
+      "Which clubs can I participate in at Gen Garage?",
+      "Can you tell me about the various clubs offered by Gen Garage?",
+      "What are the club opportunities provided by Gen Garage?",
+      "How many clubs does Gen Garage have?"],
+      "responses": ["Yes, it is mandatory to be a part of at least 1 club of Gen Garage. You can join in any number of clubs if you are interested. We have total of 6 clubs.\n1. Mantri Club\n2. Art Lens Club\n3. Social Media Champs\n4. Escape Club\n5. Magic Pen\n6. Falcon club\n\nGen Garage Clubs Registration Form:\n <a href =\"https://forms.office.com/r/g0nyiHhin\">Gen Garage Clubs</a>"]
+    },
+    {
+      "tag": "work_hours_for_gen_garage",
+      "patterns": ["Working Hours","What is the Office / Work from Home hours for anyone in Gen Garage account"],
+      "responses": ["The timings for anyone in Gen Garage are from 9 AM to 6:30 PM."]
+    },
+    {
+      "tag": "duration_of_membership_in_gen_garage",
+      "patterns": ["Till when one will be a part of Gen Garage"],
+      "responses": ["One will be a part of Gen Garage until he/she gets a billing project."]
+    },
+    {
+      "tag": "importance_of_gen_garage_sessions",
+      "patterns": ["Why it is necessary to join the sessions conducted by Gen Garage"],
+      "responses": ["Because these sessions are conducted extensively for GenZs to gain knowledge about innovative technologies."]
+    },
+    {
+      "tag": "priority_between_sessions_and_projects",
+      "patterns": ["Gen Garage Sessions or Projects, which to prioritize"],
+      "responses": ["Since you are a part of Gen Garage, it is your responsibility to give priority to Gen Garage sessions along with your project works."]
+    },
+    {
+      "tag": "mission_of_gen_garage",
+      "patterns": ["Mission","What is the Mission of Gen Garage"],
+      "responses": ["At Gen Garage, we're on a mission to foster a sense of belonging, purpose, and intent among our users."]
+    },
+    {
+      "tag": "key_offerings_of_gen_garage",
+      "patterns": ["Benefits","What are the key things Gen Garage having to Offer"],
+      "responses": ["1.Connect and Collaborate\n2.Learning and Development\n3.Innovation at its Core\n4.Fun and Bonding"]
+    },
+    {
+      "tag": "gen_garage_leads",
+      "patterns": ["Leads","Leads of Gen Garage","Gen Garage Leads","Who are the Gen Garage Leads"],
+      "responses": ["1.Subarna Bhattacharya (Program lead) India\n\n\n2.Adrian Sanchez (Program Lead) Spain\n\n\n3.Neil Parker (Program Lead) UK\n\n\n4.Peter Flood (Program Lead) UK\n\n\n5.Caroline Wilhelmsen (Program Lead) Nordics\n\n\n6.Fabrice Paul (Program Lead) France\n\n\n7.Marjin Markus (Program Lead) Netherlands\n\n\n8.Kumar chinnakali (Program Lead) North America\n\n\nFor more details of teams and location they work, click the below link:\n<a href=\"https://capgemini.sharepoint.com/sites/GenZArena_InDIndia/SitePages/Meet-the-team.aspx\">Meet the Team</a>"]
+    },
+    {
+      "tag": "gen_garage_achievements",
+      "patterns": ["Gen Garage Achievements","Achievements","What are Gen Garage Achievements"],
+      "responses": ["You can see the achievements by visiting the provided link.\n\n<a href=\"https://capgemini.sharepoint.com/sites/GenZArena_InDIndia/SitePages/Achivements.aspx\">Gen Garage Achievements</a>"]
+    },
+    {
+      "tag": "share_ideas_with_gen_garage",
+      "patterns": ["Share my Idea","Want to share your idea", "from where can I share my idea"],
+      "responses": ["Please visit the provided link and share your idea with us.\n<a href=\"https://capgemini.sharepoint.com/sites/GenZArena_InDIndia/SitePages/Share-Ideas.aspx?cid=1c1c6875-88d5-4eea-ba77-3b3f065e2f3e\">Ideas</a>"]
+    },
+    {
+      "tag": "current_projects_in_capgemini",
+      "patterns": ["Projects","Projects going on","Current Projects","What all Projects are there currently in Capgemini"],
+      "responses": ["Navigate Projects -> Country name for which you want to know\nOR \n\n<a href=\"https://capgemini.sharepoint.com/sites/GenZArena_InDIndia/Lists/On%20Going%20Project%20Subset/AllItems.aspx\">Projects</a>"]
+    },
+    {
+      "tag": "gen_garage_notebook",
+      "patterns": ["What is Notebook", "About Notebook", "Notebook"],
+      "responses": ["In SharePoint, a notebook refers to a collaborative workspace for taking and sharing notes."]
+    },
+    {
+      "tag": "document_types_for_sharepoint",
+      "patterns": ["What kind of Document can be added or shared in SharePoint"],
+      "responses": ["You can create the following document types: Word Document, Excel Document, PowerPoint Presentation, Notebook, List"]
+    },
+
+    
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    }
+  ]
+}
