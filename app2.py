@@ -8,7 +8,9 @@ from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-
+nltk.download('stopwords')
+nltk.download('wordnet')
+nltk.download('punkt')
 # Import Streamlit
 import streamlit as st
 
