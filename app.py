@@ -1,15 +1,14 @@
 from flask import Flask, request, jsonify
-from flask_cors import CORS  # Import CORS
+from flask_cors import CORS
 import random
 import json
-import subprocess
 from textblob import TextBlob
 import nltk
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-import streamlit as st
+import subprocess
 
 nltk.download('stopwords')
 nltk.download('wordnet')
@@ -73,27 +72,21 @@ def run_gunicorn():
     ]
     subprocess.run(command)
 
-def main():
-    st.title('Chatbot API')
-    run_gunicorn()
+# Define Flask routes
+@app.route('/chat', methods=['GET', 'POST'])
+def chat():
+    if request.method == 'POST':
+        user_input = request.json.get('message')
+    elif request.method == 'GET':
+        user_input = request.args.get('message')
+    else:
+        return "Method not allowed", 405
 
-    # Run Gunicorn server
+    if not user_input:
+        return "No message provided", 400
 
-    @app.route('/chat', methods=['GET', 'POST'])
-    def chat():
-        if request.method == 'POST':
-            user_input = request.json.get('message')
-        elif request.method == 'GET':
-            user_input = request.args.get('message')
-        else:
-            return "Method not allowed", 405
-
-        if not user_input:
-            return "No message provided", 400
-
-        response = get_response(user_input)
-        return jsonify({'response': response})
-        
+    response = get_response(user_input)
+    return jsonify({'response': response})
 
 if __name__ == '__main__':
-    main()
+    run_gunicorn()
