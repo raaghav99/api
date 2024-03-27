@@ -75,6 +75,7 @@ def run_gunicorn():
 
 def main():
     st.title('Chatbot API')
+    run_gunicorn()
 
     # Run Gunicorn server
 
@@ -92,7 +93,7 @@ def main():
 
         response = get_response(user_input)
         return jsonify({'response': response})
-        run_gunicorn()
+        
 
 if __name__ == '__main__':
     main()
