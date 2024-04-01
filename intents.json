@@ -89,7 +89,7 @@
     },
     {
       "tag": "question",
-      "patterns": ["Gen Z","What is Gen Z Campus?","About Gen Z Campus","Gen Z Campus"],
+      "patterns": ["Gen Z","What is Gen Z Campus?","About Gen Z Campus","Gen Z Campus","Genz"],
       "responses": ["Gen Z Campus is a learning Initiative for Grade A in collaboration with I&D Gen Z Arena. The transformation program for grade A includes:<br>1. Immersive learning opportunities: The campus offers a series of essential self-paced learnings covering technical skills to developing leadership acumen.<br>2. Mentorship and guidance: Subject matter experts from various business lines will be available to mentor the young associates through-out their journey, offering valuable insights and constructive feedback.<br>3. Innovators space: The campus, in collaboration with the Gen Garage, also offers a dedicated space for brainstorming and creating solutions to real-world challenges faced by our clients.<br><br>To visit Gen Z Campus site and Learn, Click on the given link below:<br><a href=\"https://degreed.com/plan/3104188?newWindow=true&editMode=false\" target=\"_blank\">Gen Z Campus</a>"]
     },
     {
@@ -139,7 +139,7 @@
     },
     {
       "tag": "follow_gen_garage_linkedin",
-      "patterns": ["Do we have to follow Gen Garage LinkedIn handle","Where can I find Gen Garage's profile on social media?",
+      "patterns": ["Gen Garage LinkedIn handle","LinkedIn handle","Do we have to follow Gen Garage LinkedIn handle","Where can I find Gen Garage's profile on social media?",
       "Could you provide the social media handle used by Gen Garage?",
       "What's the username for Gen Garage's social media account?",
       "How do I locate Gen Garage's social media handle?",
@@ -204,7 +204,7 @@
     },
     {
       "tag": "mission_of_gen_garage",
-      "patterns": ["Mission","What is the Mission of Gen Garage"],
+      "patterns": ["Mission","What is the Mission of Gen Garage","Mission of Gen Garage"],
       "responses": ["At Gen Garage, we're on a mission to foster a sense of belonging, purpose, and intent among our users."]
     },
     {
@@ -214,7 +214,7 @@
     },
     {
       "tag": "gen_garage_leads",
-      "patterns": ["Leads","Leads of Gen Garage","Gen Garage Leads","Who are the Gen Garage Leads"],
+      "patterns": ["Gen Garage Leaders","Leads","Leads of Gen Garage","Gen Garage Leads","Who are the Gen Garage Leads"],
       "responses": ["1.Subarna Bhattacharya (Program lead) India<br>2.Adrian Sanchez (Program Lead) Spain<br>3.Neil Parker (Program Lead) UK<br>4.Peter Flood (Program Lead) UK<br>5.Caroline Wilhelmsen (Program Lead) Nordics<br>6.Fabrice Paul (Program Lead) France<br>7.Marjin Markus (Program Lead) Netherlands<br>8.Kumar chinnakali (Program Lead) North America<br><br>For more details of teams and location they work, click the below link:<br><a href=\"https://capgemini.sharepoint.com/sites/GenZArena_InDIndia/SitePages/Meet-the-team.aspx\" target=\"_blank\">Meet the Team</a>"]
     },
     {
