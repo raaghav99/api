@@ -45,7 +45,7 @@
     {
       "tag": "purpose_of_gen_garage",
       "patterns": [
-        "Purpose",
+        "Purpose","Motivation",
         "What is the purpose of Gen Garage",
         "What does Gen Garage do",
         "Could you outline the mission or purpose that Gen Garage is dedicated to?",
@@ -89,7 +89,7 @@
     },
     {
       "tag": "question",
-      "patterns": ["Gen Z","What is Gen Z Campus?","About Gen Z Campus","Gen Z Campus","Genz"],
+      "patterns": ["Gen Z","What is Gen Z Campus?","About Gen Z Campus","Gen Z Campus"],
       "responses": ["Gen Z Campus is a learning Initiative for Grade A in collaboration with I&D Gen Z Arena. The transformation program for grade A includes:<br>1. Immersive learning opportunities: The campus offers a series of essential self-paced learnings covering technical skills to developing leadership acumen.<br>2. Mentorship and guidance: Subject matter experts from various business lines will be available to mentor the young associates through-out their journey, offering valuable insights and constructive feedback.<br>3. Innovators space: The campus, in collaboration with the Gen Garage, also offers a dedicated space for brainstorming and creating solutions to real-world challenges faced by our clients.<br><br>To visit Gen Z Campus site and Learn, Click on the given link below:<br><a href=\"https://degreed.com/plan/3104188?newWindow=true&editMode=false\" target=\"_blank\">Gen Z Campus</a>"]
     },
     {
@@ -109,11 +109,7 @@
       "In which specific cities or towns does Gen Garage have a presence?"],
       "responses": ["Gen Garage has a global presence, operating Pan India with major presence in cities such as Bangalore, Mumbai, Pune, Chennai, Hyderabad, Kolkata, and Delhi NCR."]
     },
-    {
-      "tag": "projects_covered_by_gen_garage",
-      "patterns": ["Projects","What kind of projects Gen Garage covers", "Projects included in Gen Garage"],
-      "responses": ["1.Business challenges<br>2.Proof of concepts (POCs)<br>3.Innovative ideas focused on value addition<br>4.Use cases revolving around ESG (Environmental, Social, and Governance) applications."]
-    },
+ 
     {
       "tag": "domains_of_gen_garage",
       "patterns": ["Domain","In which domains does Gen Garage develop projects", "Domains of Gen Garage"],
@@ -121,7 +117,7 @@
     },
     {
       "tag": "gen_garage_start_date",
-      "patterns": ["When Gen Garage started"],
+      "patterns": ["When was Gen Garage started"],
       "responses": ["Previously known as Millennial Garage, it was founded in Mumbai in 2019. The new version called 'Gen Garage' with a federated model was launched in 2023."]
     },
     {
@@ -194,7 +190,7 @@
     },
     {
       "tag": "importance_of_gen_garage_sessions",
-      "patterns": ["Why it is necessary to join the sessions conducted by Gen Garage"],
+      "patterns": ["Importance of Gen Garage","Importance","Why it is necessary to join the sessions conducted by Gen Garage"],
       "responses": ["Because these sessions are conducted extensively for GenZs to gain knowledge about innovative technologies."]
     },
     {
@@ -209,7 +205,7 @@
     },
     {
       "tag": "key_offerings_of_gen_garage",
-      "patterns": ["Benefits","What are the key things Gen Garage having to Offer"],
+      "patterns": ["Advantage","Pros","Advantage for joing Gen garage","Pros for joing Gen garage","Benefits","What are the key things Gen Garage having to Offer"],
       "responses": ["1.Connect and Collaborate<br>2.Learning and Development<br>3.Innovation at its Core<br>4.Fun and Bonding"]
     },
     {
@@ -219,7 +215,7 @@
     },
     {
       "tag": "gen_garage_achievements",
-      "patterns": ["Gen Garage Achievements","Achievements","What are Gen Garage Achievements"],
+      "patterns": [" Achievements of Gen Garage","Gen Garage Achievements","Achievements","What are Gen Garage Achievements"],
       "responses": ["You can see the achievements by visiting the provided link.<br><a href=\"https://capgemini.sharepoint.com/sites/GenZArena_InDIndia/SitePages/Achivements.aspx\" target=\"_blank\">Gen Garage Achievements</a>"]
     },
     {
@@ -229,8 +225,8 @@
     },
     {
       "tag": "current_projects_in_capgemini",
-      "patterns": ["Projects","Projects going on","Current Projects","What all Projects are there currently in Capgemini"],
-      "responses": ["Navigate Projects -> Country name for which you want to know<br>OR <br><a href=\"https://capgemini.sharepoint.com/sites/GenZArena_InDIndia/Lists/On%20Going%20Project%20Subset/AllItems.aspx\" target=\"_blank\">Projects</a>"]
+      "patterns": ["Projects","Projects going on","Current Projects","What all Projects are there currently in Capgemini","What kind of projects Gen Garage covers", "Projects included in Gen Garage","Proof of concepts","POCs","Innovative ideas","Innovations","Use cases"],
+      "responses": ["Navigate Projects -> Country name for which you want to know<br>\tOR <br><a href=\"https://capgemini.sharepoint.com/sites/GenZArena_InDIndia/Lists/On%20Going%20Project%20Subset/AllItems.aspx\" target=\"_blank\">Projects</a>"]
     },
     {
       "tag": "gen_garage_notebook",
@@ -239,7 +235,7 @@
     },
     {
       "tag": "document_types_for_sharepoint",
-      "patterns": ["What kind of Document can be added or shared in SharePoint"],
+      "patterns": ["Documents added","What kind of Document can be added or shared in SharePoint"],
       "responses": ["You can create the following document types: Word Document, Excel Document, PowerPoint Presentation, Notebook, List"]
     },
     {
