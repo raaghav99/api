@@ -27,7 +27,7 @@
         "Good afternoon!"
       ],
       "responses": [
-    "Hey :-) Here are some options for you:<br><b>*</b> About Gen Garage<br><b>*</b> Missions of Gen Garage<br><b>*</b> Leads of Gen Garage<br><b>*</b> Current Projects<br><b>*</b> Achievements"
+    "Hey :-) Here are some options for you:<br>1. About Gen Garage<br>2. Missions of Gen Garage<br>3. Leads of Gen Garage<br>4. Current Projects<br>5. Achievements"
 ]
     },
     {
@@ -45,7 +45,7 @@
     {
       "tag": "purpose_of_gen_garage",
       "patterns": [
-        "Purpose","Motivation",
+        "Purpose",
         "What is the purpose of Gen Garage",
         "What does Gen Garage do",
         "Could you outline the mission or purpose that Gen Garage is dedicated to?",
@@ -109,7 +109,11 @@
       "In which specific cities or towns does Gen Garage have a presence?"],
       "responses": ["Gen Garage has a global presence, operating Pan India with major presence in cities such as Bangalore, Mumbai, Pune, Chennai, Hyderabad, Kolkata, and Delhi NCR."]
     },
- 
+    {
+      "tag": "projects_covered_by_gen_garage",
+      "patterns": ["Projects","What kind of projects Gen Garage covers", "Projects included in Gen Garage"],
+      "responses": ["1.Business challenges<br>2.Proof of concepts (POCs)<br>3.Innovative ideas focused on value addition<br>4.Use cases revolving around ESG (Environmental, Social, and Governance) applications."]
+    },
     {
       "tag": "domains_of_gen_garage",
       "patterns": ["Domain","In which domains does Gen Garage develop projects", "Domains of Gen Garage"],
@@ -117,7 +121,7 @@
     },
     {
       "tag": "gen_garage_start_date",
-      "patterns": ["When was Gen Garage started"],
+      "patterns": ["When Gen Garage started"],
       "responses": ["Previously known as Millennial Garage, it was founded in Mumbai in 2019. The new version called 'Gen Garage' with a federated model was launched in 2023."]
     },
     {
@@ -135,7 +139,7 @@
     },
     {
       "tag": "follow_gen_garage_linkedin",
-      "patterns": ["Gen Garage LinkedIn handle","LinkedIn handle","Do we have to follow Gen Garage LinkedIn handle","Where can I find Gen Garage's profile on social media?",
+      "patterns": ["Do we have to follow Gen Garage LinkedIn handle","Where can I find Gen Garage's profile on social media?",
       "Could you provide the social media handle used by Gen Garage?",
       "What's the username for Gen Garage's social media account?",
       "How do I locate Gen Garage's social media handle?",
@@ -190,7 +194,7 @@
     },
     {
       "tag": "importance_of_gen_garage_sessions",
-      "patterns": ["Importance of Gen Garage","Importance","Why it is necessary to join the sessions conducted by Gen Garage"],
+      "patterns": ["Why it is necessary to join the sessions conducted by Gen Garage"],
       "responses": ["Because these sessions are conducted extensively for GenZs to gain knowledge about innovative technologies."]
     },
     {
@@ -200,22 +204,22 @@
     },
     {
       "tag": "mission_of_gen_garage",
-      "patterns": ["Mission","What is the Mission of Gen Garage","Mission of Gen Garage"],
+      "patterns": ["Mission","What is the Mission of Gen Garage"],
       "responses": ["At Gen Garage, we're on a mission to foster a sense of belonging, purpose, and intent among our users."]
     },
     {
       "tag": "key_offerings_of_gen_garage",
-      "patterns": ["Advantage","Pros","Advantage for joing Gen garage","Pros for joing Gen garage","Benefits","What are the key things Gen Garage having to Offer"],
+      "patterns": ["Benefits","What are the key things Gen Garage having to Offer"],
       "responses": ["1.Connect and Collaborate<br>2.Learning and Development<br>3.Innovation at its Core<br>4.Fun and Bonding"]
     },
     {
       "tag": "gen_garage_leads",
-      "patterns": ["Gen Garage Leaders","Leads","Leads of Gen Garage","Gen Garage Leads","Who are the Gen Garage Leads"],
+      "patterns": ["Leads","Leads of Gen Garage","Gen Garage Leads","Who are the Gen Garage Leads"],
       "responses": ["1.Subarna Bhattacharya (Program lead) India<br>2.Adrian Sanchez (Program Lead) Spain<br>3.Neil Parker (Program Lead) UK<br>4.Peter Flood (Program Lead) UK<br>5.Caroline Wilhelmsen (Program Lead) Nordics<br>6.Fabrice Paul (Program Lead) France<br>7.Marjin Markus (Program Lead) Netherlands<br>8.Kumar chinnakali (Program Lead) North America<br><br>For more details of teams and location they work, click the below link:<br><a href=\"https://capgemini.sharepoint.com/sites/GenZArena_InDIndia/SitePages/Meet-the-team.aspx\" target=\"_blank\">Meet the Team</a>"]
     },
     {
       "tag": "gen_garage_achievements",
-      "patterns": [" Achievements of Gen Garage","Gen Garage Achievements","Achievements","What are Gen Garage Achievements"],
+      "patterns": ["Gen Garage Achievements","Achievements","What are Gen Garage Achievements"],
       "responses": ["You can see the achievements by visiting the provided link.<br><a href=\"https://capgemini.sharepoint.com/sites/GenZArena_InDIndia/SitePages/Achivements.aspx\" target=\"_blank\">Gen Garage Achievements</a>"]
     },
     {
@@ -225,8 +229,8 @@
     },
     {
       "tag": "current_projects_in_capgemini",
-      "patterns": ["Projects","Projects going on","Current Projects","What all Projects are there currently in Capgemini","What kind of projects Gen Garage covers", "Projects included in Gen Garage","Proof of concepts","POCs","Innovative ideas","Innovations","Use cases"],
-      "responses": ["Navigate Projects -> Country name for which you want to know<br>\tOR <br><a href=\"https://capgemini.sharepoint.com/sites/GenZArena_InDIndia/Lists/On%20Going%20Project%20Subset/AllItems.aspx\" target=\"_blank\">Projects</a>"]
+      "patterns": ["Projects","Projects going on","Current Projects","What all Projects are there currently in Capgemini"],
+      "responses": ["Navigate Projects -> Country name for which you want to know<br>OR <br><a href=\"https://capgemini.sharepoint.com/sites/GenZArena_InDIndia/Lists/On%20Going%20Project%20Subset/AllItems.aspx\" target=\"_blank\">Projects</a>"]
     },
     {
       "tag": "gen_garage_notebook",
@@ -235,7 +239,7 @@
     },
     {
       "tag": "document_types_for_sharepoint",
-      "patterns": ["Documents added","What kind of Document can be added or shared in SharePoint"],
+      "patterns": ["What kind of Document can be added or shared in SharePoint"],
       "responses": ["You can create the following document types: Word Document, Excel Document, PowerPoint Presentation, Notebook, List"]
     },
     {
