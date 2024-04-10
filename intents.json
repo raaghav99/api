@@ -3,11 +3,11 @@
     {
       "tag": "greeting",
       "patterns": [
-        "Hi",
-        "Hey",
+        "Hi","Hi Genie",
+        "Hey","Hey Genie",
         "How are you",
         "Is anyone there?",
-        "Hello",
+        "Hello","Hello Genie",
         "Good day",
         "Hi there!",
         "Hi, how are you doing?",
@@ -27,7 +27,7 @@
         "Good afternoon!"
       ],
       "responses": [
-    "Hey :-) Here are some options for you:<br>1. About Gen Garage<br>2. Missions of Gen Garage<br>3. Leads of Gen Garage<br>4. Current Projects<br>5. Achievements"
+    "<b>Welcome to Gen Garage!<br><br> I'm your friendly GENIE, at your service!<br><br>  Here are some options for you to explore the website and know about it:<br></b><b>*</b> About Gen Garage<br><b>*</b> Missions of Gen Garage<br><b>*</b> Leads of Gen Garage<br><b>*</b> Current Projects<br><b>*</b> Achievements"
 ]
     },
     {
@@ -45,7 +45,7 @@
     {
       "tag": "purpose_of_gen_garage",
       "patterns": [
-        "Purpose",
+        "Purpose","Motivation",
         "What is the purpose of Gen Garage",
         "What does Gen Garage do",
         "Could you outline the mission or purpose that Gen Garage is dedicated to?",
@@ -90,7 +90,7 @@
     {
       "tag": "question",
       "patterns": ["Gen Z","What is Gen Z Campus?","About Gen Z Campus","Gen Z Campus"],
-      "responses": ["Gen Z Campus is a learning Initiative for Grade A in collaboration with I&D Gen Z Arena. The transformation program for grade A includes:<br>1. Immersive learning opportunities: The campus offers a series of essential self-paced learnings covering technical skills to developing leadership acumen.<br>2. Mentorship and guidance: Subject matter experts from various business lines will be available to mentor the young associates through-out their journey, offering valuable insights and constructive feedback.<br>3. Innovators space: The campus, in collaboration with the Gen Garage, also offers a dedicated space for brainstorming and creating solutions to real-world challenges faced by our clients.<br><br>To visit Gen Z Campus site and Learn, Click on the given link below:<br><a href=\"https://degreed.com/plan/3104188?newWindow=true&editMode=false\" target=\"_blank\">Gen Z Campus</a>"]
+      "responses": ["Gen Z Campus is a learning Initiative for Grade A in collaboration with I&D Gen Z Arena. The transformation program for grade A includes:<br><br>1. Immersive learning opportunities: The campus offers a series of essential self-paced learnings covering technical skills to developing leadership acumen.<br><br>2. Mentorship and guidance: Subject matter experts from various business lines will be available to mentor the young associates through-out their journey, offering valuable insights and constructive feedback.<br><br>3. Innovators space: The campus, in collaboration with the Gen Garage, also offers a dedicated space for brainstorming and creating solutions to real-world challenges faced by our clients.<br><br>To visit Gen Z Campus site and Learn, Click on the given link below:<br><a href=\"https://degreed.com/plan/3104188?newWindow=true&editMode=false\">Gen Z Campus</a>"]
     },
     {
       "tag": "gen_garage_locations",
@@ -109,11 +109,7 @@
       "In which specific cities or towns does Gen Garage have a presence?"],
       "responses": ["Gen Garage has a global presence, operating Pan India with major presence in cities such as Bangalore, Mumbai, Pune, Chennai, Hyderabad, Kolkata, and Delhi NCR."]
     },
-    {
-      "tag": "projects_covered_by_gen_garage",
-      "patterns": ["Projects","What kind of projects Gen Garage covers", "Projects included in Gen Garage"],
-      "responses": ["1.Business challenges<br>2.Proof of concepts (POCs)<br>3.Innovative ideas focused on value addition<br>4.Use cases revolving around ESG (Environmental, Social, and Governance) applications."]
-    },
+ 
     {
       "tag": "domains_of_gen_garage",
       "patterns": ["Domain","In which domains does Gen Garage develop projects", "Domains of Gen Garage"],
@@ -121,12 +117,12 @@
     },
     {
       "tag": "gen_garage_start_date",
-      "patterns": ["When Gen Garage started"],
+      "patterns": ["When was Gen Garage started"],
       "responses": ["Previously known as Millennial Garage, it was founded in Mumbai in 2019. The new version called 'Gen Garage' with a federated model was launched in 2023."]
     },
     {
       "tag": "daily_dose_engagements",
-      "patterns": ["Schedule","What Daily Dose Engagements does Gen Garage provide", "Weekly schedule of it", "Weekly schedule of it",
+      "patterns": [" Schedule","Weekly Schedule","What Daily Dose Engagements does Gen Garage provide", "Weekly schedule of it", "Weekly schedule of it",
       "What types of Daily Dose Engagements does Gen Garage offer?",
       "Could you provide details about the Daily Dose Engagements available at Gen Garage?",
       "How does Gen Garage engage users on a daily basis through their Daily Dose Engagements?",
@@ -135,11 +131,11 @@
       "In what ways does Gen Garage keep users engaged through their Daily Dose activities?",
       "Could you go into more detail about the content and formats of the Daily Dose Engagements provided by Gen Garage?",
       "How diverse are the Daily Dose Engagements at Gen Garage, and can you provide examples of each?"],
-      "responses": ["MONDAY-Knowledge Sharing Session<br>TUESDAY-Tuesday Tips<br>WEDNESDAY-Innovation of the Week<br>THURSDAY-Guru Gyan<br>FRIDAY-Masti Friday"]
+      "responses": ["MONDAY-Knowledge Sharing Session<br><br>TUESDAY-Tuesday Tips<br><br>WEDNESDAY-Innovation of the Week<br><br>THURSDAY-Guru Gyan<br><br>FRIDAY-Masti Friday"]
     },
     {
       "tag": "follow_gen_garage_linkedin",
-      "patterns": ["Do we have to follow Gen Garage LinkedIn handle","Where can I find Gen Garage's profile on social media?",
+      "patterns": ["Gen Garage LinkedIn handle","LinkedIn handle","Do we have to follow Gen Garage LinkedIn handle","Where can I find Gen Garage's profile on social media?",
       "Could you provide the social media handle used by Gen Garage?",
       "What's the username for Gen Garage's social media account?",
       "How do I locate Gen Garage's social media handle?",
@@ -162,7 +158,7 @@
     },
     {
       "tag": "gen_garage_clubs",
-      "patterns": ["What are the Clubs of Gen Garage", "Is it mandatory to be a part of the clubs","What are the club offerings at Gen Garage?",
+      "patterns": ["Gen Garage Club","What are the Clubs of Gen Garage", "Is it mandatory to be a part of the clubs","What are the club offerings at Gen Garage?",
       "Could you tell me about the clubs affiliated with Gen Garage?",
       "What clubs are available through Gen Garage?",
       "Which clubs can I join at Gen Garage?",
@@ -180,7 +176,8 @@
       "Can you tell me about the various clubs offered by Gen Garage?",
       "What are the club opportunities provided by Gen Garage?",
       "How many clubs does Gen Garage have?"],
-      "responses": ["Yes, it is mandatory to be a part of at least 1 club of Gen Garage. You can join in any number of clubs if you are interested. We have total of 6 clubs.<br>1. Mantri Club<br>2. Art Lens Club<br>3. Social Media Champs<br>4. Escape Club<br>5. Magic Pen<br>6. Falcon club<br><br>Gen Garage Clubs Registration Form:<br> <a href =\"https://forms.office.com/r/g0nyiHhin\" target=\"_blank\">Gen Garage Clubs</a>"]
+      "responses": ["Yes, it is mandatory to be a part of at least 1 club of Gen Garage. You can join in any number of clubs if you are interested. We have total of 6 clubs.<br><br>1. Mantri Club<br>2. Art Lens Club<br>3. Social Media Champs<br>4. Escape Club<br>5. Magic Pen<br>6. Falcon club<br><br>Gen Garage Clubs Registration Form:<br><br><a href=\"https://forms.office.com/e/V4Te9qAc7N\">Registration Form</a>"
+      ]
     },
     {
       "tag": "work_hours_for_gen_garage",
@@ -194,43 +191,43 @@
     },
     {
       "tag": "importance_of_gen_garage_sessions",
-      "patterns": ["Why it is necessary to join the sessions conducted by Gen Garage"],
+      "patterns": ["Importance of Gen Garage","Importance","Why it is necessary to join the sessions conducted by Gen Garage"],
       "responses": ["Because these sessions are conducted extensively for GenZs to gain knowledge about innovative technologies."]
     },
     {
       "tag": "priority_between_sessions_and_projects",
-      "patterns": ["Gen Garage Sessions or Projects, which to prioritize"],
+      "patterns": ["Priority","what priority should be given","Gen Garage Sessions or Projects, which to prioritize"],
       "responses": ["Since you are a part of Gen Garage, it is your responsibility to give priority to Gen Garage sessions along with your project works."]
     },
     {
       "tag": "mission_of_gen_garage",
-      "patterns": ["Mission","What is the Mission of Gen Garage"],
+      "patterns": ["Mission","What is the Mission of Gen Garage","Mission of Gen Garage"],
       "responses": ["At Gen Garage, we're on a mission to foster a sense of belonging, purpose, and intent among our users."]
     },
     {
       "tag": "key_offerings_of_gen_garage",
-      "patterns": ["Benefits","What are the key things Gen Garage having to Offer"],
+      "patterns": ["Advantage","Pros","Advantage for joing Gen garage","Pros for joing Gen garage","Benefits","What are the key things Gen Garage having to Offer"],
       "responses": ["1.Connect and Collaborate<br>2.Learning and Development<br>3.Innovation at its Core<br>4.Fun and Bonding"]
     },
     {
       "tag": "gen_garage_leads",
-      "patterns": ["Leads","Leads of Gen Garage","Gen Garage Leads","Who are the Gen Garage Leads"],
-      "responses": ["1.Subarna Bhattacharya (Program lead) India<br>2.Adrian Sanchez (Program Lead) Spain<br>3.Neil Parker (Program Lead) UK<br>4.Peter Flood (Program Lead) UK<br>5.Caroline Wilhelmsen (Program Lead) Nordics<br>6.Fabrice Paul (Program Lead) France<br>7.Marjin Markus (Program Lead) Netherlands<br>8.Kumar chinnakali (Program Lead) North America<br><br>For more details of teams and location they work, click the below link:<br><a href=\"https://capgemini.sharepoint.com/sites/GenZArena_InDIndia/SitePages/Meet-the-team.aspx\" target=\"_blank\">Meet the Team</a>"]
+      "patterns": ["Team","Leaders","Gen Garage Leaders","Leads","Leads of Gen Garage","Gen Garage Leads","Who are the Gen Garage Leads"],
+      "responses": ["1.Subarna Bhattacharya (Program lead) India<br><br>2.Adrian Sanchez (Program Lead) Spain<br><br>3.Neil Parker (Program Lead) UK<br><br>4.Peter Flood (Program Lead) UK<br>5.Caroline Wilhelmsen (Program Lead) Nordics<br><br>6.Fabrice Paul (Program Lead) France<br><br>7.Marjin Markus (Program Lead) Netherlands<br><br>8.Kumar chinnakali (Program Lead) North America<br><br>For more details of teams and location they work, click the below link:<br><a href=\"https://capgemini.sharepoint.com/sites/GenGarage/SitePages/Meet-the-Team.aspx\">Meet the Team</a>"]
     },
     {
       "tag": "gen_garage_achievements",
-      "patterns": ["Gen Garage Achievements","Achievements","What are Gen Garage Achievements"],
-      "responses": ["You can see the achievements by visiting the provided link.<br><a href=\"https://capgemini.sharepoint.com/sites/GenZArena_InDIndia/SitePages/Achivements.aspx\" target=\"_blank\">Gen Garage Achievements</a>"]
+      "patterns": [" Achievements of Gen Garage","Gen Garage Achievements","Achievements","What are Gen Garage Achievements"],
+      "responses": ["You can see the achievements by visiting the provided link.<br><a href=\"https://capgemini.sharepoint.com/sites/GenGarage/SitePages/Acheivements.aspx\">Gen Garage Achievements</a>"]
     },
     {
       "tag": "share_ideas_with_gen_garage",
       "patterns": ["Share my Idea","Want to share your idea", "from where can I share my idea"],
-      "responses": ["Please visit the provided link and share your idea with us.<br><a href=\"https://capgemini.sharepoint.com/sites/GenZArena_InDIndia/SitePages/Share-Ideas.aspx?cid=1c1c6875-88d5-4eea-ba77-3b3f065e2f3e\" target=\"_blank\">Ideas</a>"]
+      "responses": ["Please visit the provided link and share your idea with us.<br><a href=\"https://capgemini.sharepoint.com/sites/GenGarage/SitePages/Share-Your-Ideas(2).aspx\">Share Your Ideas</a>"]
     },
     {
       "tag": "current_projects_in_capgemini",
-      "patterns": ["Projects","Projects going on","Current Projects","What all Projects are there currently in Capgemini"],
-      "responses": ["Navigate Projects -> Country name for which you want to know<br>OR <br><a href=\"https://capgemini.sharepoint.com/sites/GenZArena_InDIndia/Lists/On%20Going%20Project%20Subset/AllItems.aspx\" target=\"_blank\">Projects</a>"]
+      "patterns": ["On Going Projects","Projects","Projects going on","Current Projects","What all Projects are there currently in Capgemini","What kind of projects Gen Garage covers", "Projects included in Gen Garage","Proof of concepts","POCs","Innovative ideas","Innovations","Use cases","Projects in different country","Different country projects"],
+      "responses": ["Navigate Projects -> Country name for which you want to know<br>\tOR <br><a href=\"https://capgemini.sharepoint.com/sites/GenGarage/SitePages/Projects.aspx\">Projects in different Country</a><br><br><a href=\"https://capgemini.sharepoint.com/sites/GenGarage/SitePages/On-Going-Projects.aspx\">On Going Project </a>"]
     },
     {
       "tag": "gen_garage_notebook",
@@ -239,7 +236,7 @@
     },
     {
       "tag": "document_types_for_sharepoint",
-      "patterns": ["What kind of Document can be added or shared in SharePoint"],
+      "patterns": ["Documents added","What kind of Document can be added or shared in SharePoint"],
       "responses": ["You can create the following document types: Word Document, Excel Document, PowerPoint Presentation, Notebook, List"]
     },
     {
