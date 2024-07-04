@@ -227,7 +227,7 @@
     {
       "tag": "current_projects_in_capgemini",
       "patterns": ["On Going Projects","Projects","Projects going on","Current Projects","What all Projects are there currently in Capgemini","What kind of projects Gen Garage covers", "Projects included in Gen Garage","Proof of concepts","POCs","Innovative ideas","Innovations","Use cases","Projects in different country","Different country projects"],
-      "responses": ["Navigate Projects -> Country name for which you want to know<br>\tOR <br><a href=\"https://capgemini.sharepoint.com/sites/GenGarage/SitePages/Projects.aspx\" target=\"_blank\">Projects in different Country</a><br><br><a href=\"https://capgemini.sharepoint.com/sites/GenGarage/SitePages/On-Going-Projects.aspx\" target=\"_blank\">On Going Project </a>"]
+      "responses": ["Navigate Projects -> Country name for which you want to know<br>\tOR <br><a href=\"https://capgemini.sharepoint.com/sites/GenGarage/SitePages/Projects.aspx\" class='button-style' target=\"_blank\">Projects in different Country</a><br><br><a href=\"https://capgemini.sharepoint.com/sites/GenGarage/SitePages/On-Going-Projects.aspx\" class='button-style' target=\"_blank\">On Going Project </a>"]
     },
     {
       "tag": "gen_garage_notebook",
